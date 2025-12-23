@@ -27,7 +27,7 @@ export function Hero() {
                 <p className="text-[#525252] text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
                     Software & Data Engineering Lead @ <strong className="text-[#2D2D2D]">BlueForge Alliance</strong>.
                     <br />
-                    Passionate about Products, People, and trying to learn something new every day.
+                    Trying to learn something new every day.
                 </p>
 
                 <div className="flex gap-4 justify-center pt-4">
