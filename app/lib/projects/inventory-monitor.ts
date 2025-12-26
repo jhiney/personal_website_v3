@@ -14,6 +14,11 @@ export const inventoryMonitor: Project = {
     demoUrl: "",
     repoUrl: "https://github.com/jhiney/inventory_monitor",
     content: `
+### Background
+A close friend of mine was very interested in the world of high-end pocket knives. He constantly remarked about how email updates from companies never accurately reflected the current stock because the in-demand products were often taken within minutes or even seconds of the email being sent out.
+
+I noticed that a good number of high-end knife manufacturers use Shopify to sell their products, and I thought it would be a fun project to build a simple, configurable script to monitor Shopify and other websites for knife restocks and send notifications to my phone.
+
 ### Overview
 This project is a Python-based automation tool designed to monitor e-commerce websites for product restocks. It was originally built to track knife inventory but can be configured for any product. It supports both Shopify's JSON API for reliable tracking and generic regex-based scraping for other platforms.
 
@@ -28,7 +33,7 @@ This project is a Python-based automation tool designed to monitor e-commerce we
 The script runs as a scheduled task or cron job. It fetches product data from configured sources, compares it against the locally stored state, and triggers a notification if a new or restocked item is detected. The configuration is handled via a JSON file, making it easy to add or remove sites without touching the code.
 
 ### Tech Stack
-Built with **Python** using the \`requests\` library for network operations. The simplicity of the stack ensures it can run on minimal hardware like a Raspberry Pi or a small VPS.
+Built with **Python** using the \`requests\` library for network operations. I needed simplicity in the stack to ensure it can run on minimal hardware like a Raspberry Pi or a small VPS. I am hosting a version on a Digital Ocean Droplet.
     `,
     screenshots: [],
 };
