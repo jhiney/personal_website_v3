@@ -27,7 +27,7 @@ export function Contact() {
                         className="flex flex-col items-center gap-2 group"
                     >
                         <Button shape="round" variant="neutral" className="group-hover:scale-110 transition-transform duration-200">
-                            <SiGithub className="w-6 h-6 text-gray-500" />
+                            <SiGithub className="w-6 h-6 text-white" />
                         </Button>
                         <span className="text-xs font-bold text-gray-400 uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
                             GitHub
@@ -41,7 +41,7 @@ export function Contact() {
                         className="flex flex-col items-center gap-2 group"
                     >
                         <Button shape="round" variant="neutral" className="group-hover:scale-110 transition-transform duration-200">
-                            <SiLinkedin className="w-6 h-6 text-blue-600" />
+                            <SiLinkedin className="w-6 h-6 text-white" />
                         </Button>
                         <span className="text-xs font-bold text-gray-400 uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
                             LinkedIn
